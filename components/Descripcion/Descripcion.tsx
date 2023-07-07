@@ -91,7 +91,7 @@ export default function Descripcion({data}:Props) {
             <span>{data.CANTIDAD_CABEZAL}</span>
             <span>{data.AREA_IMPRESION}mm</span>
             <span>{data.GARANTIA_MAQUINA} años</span>
-            <span>{data.CANTIDAD_CABEZAL} años</span>
+            <span>{data.GARANTIA_CABEZAL} años</span>
           </div>
         </div>
 
