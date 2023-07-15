@@ -83,13 +83,21 @@ export default function Home() {
       </div>
 
 
-      <div className="py-7 flex justify-center items-start">
+      <div className="py-7 flex justify-center items-start gap-x-4">
         <a
           href="https://wa.me/+51994099669" target="_blank"
           className="bg-white border border-primary px-10 py-2 rounded-3xl font-semibold
                 hover:border-white hover:bg-primary hover:text-white duration-300"
         >
-          COTÍZA AQUÍ
+          Cotiza aquí
+        </a>
+        {/*-----------------------------------------------*/}
+        <a
+          href="" target="_blank"
+          className="bg-white border border-primary px-10 py-2 rounded-3xl font-semibold
+                hover:border-white hover:bg-primary hover:text-white duration-300"
+        >
+          Ver catálogo
         </a>
       </div>
 

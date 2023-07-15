@@ -8,7 +8,7 @@ export const Rutas = {
         path: '/contacto'
     },
     CATALOGO:{
-        name: 'CATALOGO',
+        name: 'CATÁLOGO',
         path: '/catalogo'
     },
 }
