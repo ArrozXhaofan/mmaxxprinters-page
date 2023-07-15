@@ -20,7 +20,7 @@ interface Props{
         <Link href={`${categoria}/${data.id}`}
         className="bg-primary rounded-full px-10 py-2 text-lg text-white hover:text-primary duration-300
         hover:bg-white border hover:border border-primary">
-            Ver mas
+            Ver más
         </Link>
     </div>
   )
