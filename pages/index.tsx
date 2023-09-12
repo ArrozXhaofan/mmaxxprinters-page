@@ -93,7 +93,7 @@ export default function Home() {
         </a>
         {/*-----------------------------------------------*/}
         <a
-          href="" target="_blank"
+          href="http://www.catalogo.mmaxxprinters.com/mobile/index.html" target="_blank"
           className="bg-white border border-primary px-10 py-2 rounded-3xl font-semibold
                 hover:border-white hover:bg-primary hover:text-white duration-300"
         >
@@ -242,10 +242,6 @@ export default function Home() {
             ))
           }
       </div>
-
-
-
-
 
     </div>
   );

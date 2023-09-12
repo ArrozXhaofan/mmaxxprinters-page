@@ -40,8 +40,57 @@ export async function getStaticProps(){
 
     try {
         
-        const res = await fetch('https://apimaxv2.apexmaicol.online/VPecosolvente/')
-        const data = await res.json()
+        
+        const data = [
+          {
+            "id": 1,
+            "modelo": "1300 EX1",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/1300 EX1_1300.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 2,
+            "modelo": "ME - 1600 EX1-E",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 1600 EX1-E_1600.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 3,
+            "modelo": "ME - 1600 EX2-E",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 1600 EX2-E_1600.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 8,
+            "modelo": "ME - 3000 EX2-E",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 3000 EX2-E_3000.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 9,
+            "modelo": "ME - 300 EX4-E",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 300 EX4-E_3000.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 12,
+            "modelo": "ME - 1800I E1/2",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/EWRWE_1800.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 13,
+            "modelo": "ME - 2500I E2",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 2500I E2_2500i.png",
+            "categoria": "ECOSOLVENTE"
+          },
+          {
+            "id": 14,
+            "modelo": "ME - 3000I E2",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/ME - 3000I E2_3000i.png",
+            "categoria": "ECOSOLVENTE"
+          }
+        ]
 
         return{
             props: {

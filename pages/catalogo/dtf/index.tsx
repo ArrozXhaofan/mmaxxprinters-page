@@ -4,6 +4,7 @@ import { Card,Bloque } from "@/components";
 
 
 function Dtf({data}:any) {
+  
 
   const maquinas:Maquina[] = data;
 
@@ -40,8 +41,23 @@ export async function getStaticProps(){
 
     try {
         
-        const res = await fetch('https://apimaxv2.apexmaicol.online/VPdtf/')
-        const data = await res.json()
+        /*const res = await fetch('https://apimaxv2.apexmaicol.online/VPdtf/')
+        const data = await res.json()*/
+
+        const data:Maquina[] = [
+          {
+            "id": 6,
+            "modelo": "MD 700 EX2",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/MD 700 EX2_DTF700.png",
+            "categoria": "DTF"
+          },
+          {
+            "id": 7,
+            "modelo": "MD 700 EX4",
+            "imagen": "https://maxv2.apexmaicol.online/imagenes/img_producto/MD 700 EX4_DTF700.png",
+            "categoria": "DTF"
+          }
+        ]
 
         return{
             props: {

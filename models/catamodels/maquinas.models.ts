@@ -17,7 +17,7 @@ export  interface Maquina2 {
   AREA_IMPRESION: string;
   GARANTIA_MAQUINA: string;
   GARANTIA_CABEZAL: string;
-  SUPERFICIE: SUPERFICIE[];
+  SUPERFICIE: any;
 }
 
 export interface SUPERFICIE {
